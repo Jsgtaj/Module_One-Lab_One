@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Your mission - replicate the visual styles in the jpeg provided using CSS advanced selectors and the HTML document provide. You CANNOT use simple type selectors, classes or Ids! */
+
+html > body {
+  font-family: "Cute Font", sans-serif;
+}
+body > div {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #ffa604;
+}
+div h1,
+div h2,
+div h3,
+div h4,
+div p {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.1em;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+section:last-child h2 {
+  margin-block-start: 1em;
+}
+main > section > div:first-child {
+  width: 92% !important;
+  margin: 0 auto;
+}
+header > h1 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-size: 3.6em;
+}
+section > h2 {
+  font-size: 3em;
+}
+section > h3,
+section > p,
+ul li {
+  font-size: 1.9em;
+}
+ul li {
+  margin-left: 30px;
+}
+section > p::first-letter {
+  font-size: 3.8em;
+}
+section > p:last-child {
+  color: #81007f;
+}
+section > p > em,
+ul li:nth-child(2) em {
+  color: #017d00;
+  font-size: 1.9em;
+}
+ul li:nth-child(1),
+ul li:nth-child(3) {
+  text-decoration: underline;
+}
+ul li:last-child {
+  color: #feff04;
+  font-size: 3.8em;
+}
+div > footer {
+  font-size: 2em;
+  color: #fff;
+  padding-bottom: 40px;
+}
